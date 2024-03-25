@@ -1,4 +1,3 @@
-package com.gilmartmd;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;

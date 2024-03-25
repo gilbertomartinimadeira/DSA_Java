@@ -1,12 +1,11 @@
-package com.gilmartmd;
 
 import java.util.LinkedList;
 import java.util.Queue;
 
 public class QueueDemo {
 
-        public static void Show(){
-             var queue = new LinkedList<String>();
+          public static void Show(){
+          var queue = new LinkedList<String>();
 
         print("Creating a queue in Java: Queue<String> queue = new LinkedList<>();");
 
