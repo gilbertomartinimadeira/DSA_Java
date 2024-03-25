@@ -19,8 +19,8 @@ public class LinkedListDemo {
         System.out.println("Printing the stack");
         System.out.println(stack);
 
-        // By using offer and poll on a linkedList, we are treating it like a Stack,     
-        // because the last inserted element will be processed first
+        // By using offer and poll on a linkedList, we are treating it like a Queue,     
+        // because the first inserted element will be processed first
         // System.out.println(list.pop());
 
         LinkedList<String> linkedList = new LinkedList<>();

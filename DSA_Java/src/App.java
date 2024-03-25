@@ -6,7 +6,6 @@ public class App {
         //QueueDemo.Show();
         //PriorityQueueDemo.show();
         //LinkedListDemo.show();
-
-        DynamicArrayDemo.show();           
+        //DynamicArrayDemo.show();           
     }
 }
