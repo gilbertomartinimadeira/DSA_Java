@@ -55,7 +55,7 @@ public class BinarySearchDemo {
         int high = array.length - 1;
         int low = 0;
 
-        while(value >= array[low] && value <= array[high] & low <= high ) {
+        while(low <= high ) {
             int probe = low + (high - low) * (value - array[low]) 
                             / ( array[high] - array[low] );
 
@@ -70,7 +70,7 @@ public class BinarySearchDemo {
 
 
 
-        return 0;
+        return -1;
         
     }
 
