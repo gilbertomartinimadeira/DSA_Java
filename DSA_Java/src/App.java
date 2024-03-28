@@ -32,7 +32,9 @@ public class App {
 
         //BubbleSortDemo.run();
 
-        SelectionSortDemo.run();
+        //SelectionSortDemo.run();
+
+        InsertionSortDemo.run();
 
         
 
