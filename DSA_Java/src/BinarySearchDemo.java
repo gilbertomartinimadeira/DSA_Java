@@ -29,9 +29,7 @@ public class BinarySearchDemo {
 
         
         System.out.println("Interpolation Search");
-
-        int[] secondArray = {1,2,3,14,5,6,7,8,9};
-
+        
         index = interpolationSearch(array, 8);
 
         System.out.println(index);
@@ -42,6 +40,7 @@ public class BinarySearchDemo {
 
     /**
      * INterpolation Search - improvement over binary search best used for "uniformly" distributed data
+     * (in this case, all elements increase by one)
      * "guesses" where a value might be based on calculated probe results
      * if probe is incorrect , search area is narrowed, and a new probe is calculated
      * 

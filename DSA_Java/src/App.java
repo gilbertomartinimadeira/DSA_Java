@@ -27,7 +27,9 @@ public class App {
 
         // System.out.println(sumOfAll);
 
-        BinarySearchDemo.run();
+        //BinarySearchDemo.run();
+
+        BubbleSortDemo.run();
 
         
 
