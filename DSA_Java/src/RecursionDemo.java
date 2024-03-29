@@ -1,9 +1,8 @@
 public class RecursionDemo {
     public static void run() {
 
-        //walk(-5);
-        //System.out.println(factorial(7));
-
+        walk(-5);
+        System.out.println(factorial(7));
         System.out.println(power(2,8));
 
 
@@ -12,8 +11,7 @@ public class RecursionDemo {
     private static void walk(int steps) {
 
         steps = Math.abs(steps);
-
-        // TODO Auto-generated method stub
+    
         if(steps < 1) return;
         System.out.println("You took a step");
         walk(steps - 1);

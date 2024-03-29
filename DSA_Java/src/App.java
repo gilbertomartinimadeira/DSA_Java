@@ -36,11 +36,10 @@ public class App {
         //SelectionSortDemo.run();
 
         //InsertionSortDemo.run();
+    
+        //RecursionDemo.run();
 
-        
-
-        
-        RecursionDemo.run();
+        MergeSortDemo.run();
 
 
 
