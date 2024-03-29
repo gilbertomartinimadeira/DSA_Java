@@ -4,7 +4,8 @@ import java.util.LinkedList;
 public class App {
     public static void main(String[] args) throws Exception {
         
-        clearScreen();
+        System.out.print("\033[H\033[2J");
+        System.out.flush();  
         
         //QueueDemo.Show();
         //PriorityQueueDemo.show();
@@ -34,22 +35,16 @@ public class App {
 
         //SelectionSortDemo.run();
 
-        InsertionSortDemo.run();
+        //InsertionSortDemo.run();
 
         
 
-
-
+        
+        RecursionDemo.run();
 
 
 
          System.out.println("");
     }
 
-    private static void clearScreen() {
-    
-        System.out.print("\033[H\033[2J");
-        System.out.flush();  
-
-    }
 }
